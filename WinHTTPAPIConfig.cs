@@ -20,7 +20,7 @@ namespace WinHTTPAPI
 
         public static readonly WinHTTPAPIConfig Default = new WinHTTPAPIConfig()
         {
-            LogDestinationFile = @"C:\WinHTTPAPI\de40.log",
+            LogDestinationFile = @"C:\WinHTTPAPI\whapi.log",
             VerboseLog = false
         };
 
