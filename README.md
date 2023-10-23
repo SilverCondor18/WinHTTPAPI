@@ -22,4 +22,11 @@ Installation:
    IMPORTANT! If target directory contains many large files, calchash=true can take a lot of time
    list method can handle additional parameter (nodirsize=true|false, false by default) count or no directories contents size in list (if listed dir located in HDD and contains hundreds of thousands files, it can take a lot of time)
    /mkdir - create directory in a target computer filesystem (usage: http://<target machine>:2950/mkdir?path=D:\NewDir, return example: {"State":"success","Message":"Directory created","AdditionalInformation":"{\"Name\":\"NewDir\",\"FullPath\":\"D:\\\\NewDir\",\"Size\":0,\"ObjectType\":1,\"HashCalculated\":false,\"Sha256\":null,\"LastWrite\":\"2023-10-23T14:55:47.3313015+03:00\",\"CreationTime\":\"2023-10-23T14:55:47.3313015+03:00\",\"HumanReadableSize\":\"0 B\"}"})
+   /rootlist - lists target machine's disks as directories, as /list do it with typical dir (see /list above)
+   /remotecmd - executes specified command (or program) on target machine (usage - http://<target machine>:2950/remotecmd, params must be sent by POST (JSON), see RemoteCmd class
+   example (usage): curl -X POST -d "{'CmdLabel':'PING', 'CmdObject':'ping', 'CmdArgs':'192.168.5.1 -n 3'}" http://192.168.5.5:2950/remotecmd --ntlm --negotiate -u user:pass
+   return example: {"State":"success","Message":"Command executed","AdditionalInformation":"{\"ReturnCode\":0,\"StdOut\":\"\\r\\nPinging 192.168.5.1 with 32 bytes of data:\\r\\nReply from 192.168.5.1: bytes=32 time<1ms TTL=64\\r\\nReply from 192.168.5.1: bytes=32 time<1ms TTL=64\\r\\nReply from 192.168.5.1: bytes=32 time<1ms TTL=64\\r\\n\\r\\nPing statistics for 192.168.5.1:\\r\\n    Packets: Sent = 3, Received = 3, Lost = 0 (0% loss),\\r\\nApproximate round trip times in milli-seconds:\\r\\n    Minimum = 0ms, Maximum = 0ms, Average = 0ms\\r\\n\",\"StdErr\":\"\"}"}
+   note: You can specify CmdWaitTicks param with max of milliseconds you want to "wait" command execution before it will be forcefully killed by WinHTTPAPI service, default - 1 minute (60000ms)
+   note 2: Remote commands output console encoding hardcoded to 866, you can change it and rebuild
+   
    
