@@ -190,12 +190,6 @@ namespace WinHTTPAPI
                             }
                             break;
                         }
-                    case "servername":
-                        {
-                            resultMessage.State = "success";
-                            resultMessage.Message = Environment.MachineName;
-                            break;
-                        }
                     case "logon":
                         {
                             SendLogonList();
