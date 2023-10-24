@@ -74,7 +74,7 @@ namespace WinHTTPAPI
             }
             lm = new LogManager(new FileInfo(config.LogDestinationFile));
             apiListener = new HttpListener();
-            apiListener.AuthenticationSchemes = AuthenticationSchemes.Negotiate;
+            apiListener.AuthenticationSchemes = AuthenticationSchemes.Negotiate | AuthenticationSchemes.Ntlm;
             apiListener.Prefixes.Add("http://*:2950/");
             apiListener.Start();
             ServiceMainThread.Start();
