@@ -79,7 +79,7 @@ namespace WinHTTPAPI
         {
             if (State == "exception")
             {
-                return Message + "\r\nДополнительная информация: " + AdditionalInformation;
+                return Message + "\r\nAdditional information: " + AdditionalInformation;
             }
             else
             {
