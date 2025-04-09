@@ -1,0 +1,12 @@
+C:\csharpprojects\WinHTTPAPI\bin\Release\WinHTTPAPI.exe.config
+C:\csharpprojects\WinHTTPAPI\bin\Release\WinHTTPAPI.exe
+C:\csharpprojects\WinHTTPAPI\bin\Release\WinHTTPAPI.pdb
+C:\csharpprojects\WinHTTPAPI\bin\Release\Cassia.dll
+C:\csharpprojects\WinHTTPAPI\bin\Release\Newtonsoft.Json.dll
+C:\csharpprojects\WinHTTPAPI\bin\Release\Cassia.xml
+C:\csharpprojects\WinHTTPAPI\bin\Release\Newtonsoft.Json.xml
+C:\csharpprojects\WinHTTPAPI\obj\Release\WinHTTPAPI.csproj.AssemblyReference.cache
+C:\csharpprojects\WinHTTPAPI\obj\Release\WinHTTPAPI.csproj.CoreCompileInputs.cache
+C:\csharpprojects\WinHTTPAPI\obj\Release\WinHTTPAPI.csproj.Up2Date
+C:\csharpprojects\WinHTTPAPI\obj\Release\WinHTTPAPI.exe
+C:\csharpprojects\WinHTTPAPI\obj\Release\WinHTTPAPI.pdb

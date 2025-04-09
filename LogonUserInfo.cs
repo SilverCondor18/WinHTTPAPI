@@ -6,6 +6,7 @@ namespace WinHTTPAPI
     {
         public string UserName { get; set; }
         public string ClientName { get; set; }
+        public int ClientBuild {  get; set; }
         public string ClientIP { get; set; }
         public string ConnectionState { get; set; }
         public int SessionID { get; set; }

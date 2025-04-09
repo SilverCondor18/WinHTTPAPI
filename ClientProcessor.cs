@@ -265,6 +265,7 @@ namespace WinHTTPAPI
                                 SessionID = session.SessionId,
                                 UserName = session.UserName,
                                 ClientName = session.ClientName,
+                                ClientBuild = session.ClientBuildNumber,
                                 ClientIP = session.ClientIPAddress?.ToString(),
                                 ConnectionState = Convert.ToString(session.ConnectionState)
                             });

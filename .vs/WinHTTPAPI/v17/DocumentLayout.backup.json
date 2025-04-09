@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\csharpprojects\\WinHTTPAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB17AE2-5DB8-4450-B57D-44FC1411124C}|WinHTTPAPI.csproj|C:\\csharpprojects\\WinHTTPAPI\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5CB17AE2-5DB8-4450-B57D-44FC1411124C}|WinHTTPAPI.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB17AE2-5DB8-4450-B57D-44FC1411124C}|WinHTTPAPI.csproj|C:\\csharpprojects\\WinHTTPAPI\\clientprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB17AE2-5DB8-4450-B57D-44FC1411124C}|WinHTTPAPI.csproj|solutionrelative:clientprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB17AE2-5DB8-4450-B57D-44FC1411124C}|WinHTTPAPI.csproj|c:\\csharpprojects\\winhttpapi\\logonuserinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB17AE2-5DB8-4450-B57D-44FC1411124C}|WinHTTPAPI.csproj|solutionrelative:logonuserinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB17AE2-5DB8-4450-B57D-44FC1411124C}|WinHTTPAPI.csproj|C:\\csharpprojects\\WinHTTPAPI\\LogManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB17AE2-5DB8-4450-B57D-44FC1411124C}|WinHTTPAPI.csproj|solutionrelative:LogManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogonUserInfo.cs",
+              "DocumentMoniker": "C:\\csharpprojects\\WinHTTPAPI\\LogonUserInfo.cs",
+              "RelativeDocumentMoniker": "LogonUserInfo.cs",
+              "ToolTip": "C:\\csharpprojects\\WinHTTPAPI\\LogonUserInfo.cs",
+              "RelativeToolTip": "LogonUserInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T13:46:02.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\csharpprojects\\WinHTTPAPI\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\csharpprojects\\WinHTTPAPI\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-09T13:45:28.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientProcessor.cs",
+              "DocumentMoniker": "C:\\csharpprojects\\WinHTTPAPI\\ClientProcessor.cs",
+              "RelativeDocumentMoniker": "ClientProcessor.cs",
+              "ToolTip": "C:\\csharpprojects\\WinHTTPAPI\\ClientProcessor.cs",
+              "RelativeToolTip": "ClientProcessor.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAiwA0BAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T13:12:28.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogManager.cs",
+              "DocumentMoniker": "C:\\csharpprojects\\WinHTTPAPI\\LogManager.cs",
+              "RelativeDocumentMoniker": "LogManager.cs",
+              "ToolTip": "C:\\csharpprojects\\WinHTTPAPI\\LogManager.cs",
+              "RelativeToolTip": "LogManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T13:12:14.6Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
